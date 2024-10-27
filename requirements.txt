@@ -1,0 +1,14 @@
+asyncio
+aiohttp
+ffmpeg-python
+gitpython
+python-dotenv
+pydub
+httpx[http2]
+requests
+tgcrypto
+youtube-search-python
+uvloop
+py-tgcalls
+git+https://github.com/KurimuzonAkuma/pyrogram
+git+https://github.com/yt-dlp/yt-dlp
