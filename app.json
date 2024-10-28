@@ -9,7 +9,7 @@
       "music",
       "productivity"
     ],
-    "repository": "https://github.com/iniridwanul/Crowgram",
+    "repository": "https://github.com/Xkrishmishra/Ukrish",
     "env": {
       "api_id": {
         "description": "Collect this value from my.telegram.org and do not share it with anyone.",
