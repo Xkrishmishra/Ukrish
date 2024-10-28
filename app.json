@@ -31,28 +31,8 @@
         "value": "",
         "required": true
       },
-      "assistant_bot": {
-        "description": "Enter the username of the assistant bot with @.",
-        "value": "",
-        "required": true
-      },
       "owner": {
         "description": "Enter the owner's user ID.",
-        "value": "",
-        "required": true
-      },
-      "assistant_api_id": {
-        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "assistant_api_hash": {
-        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "assistant_string": {
-        "description": "Collect this value by running python3 string_session.py, and never accidentally share it with anyone.",
         "value": "",
         "required": true
       },
@@ -60,17 +40,6 @@
         "description": "Enter Crowgram's log group ID.",
         "value": "",
         "required": true
-      },
-      "pm_log_location": {
-        "description": "Enter the group ID of the place you want to collect private messages from.",
-        "value": "",
-        "required": false
-      },
-      "mention_log_location": {
-        "description": "Enter the group ID of the place where you want to collect the mention message log.",
-        "value": "",
-        "required": false
-      }
     },
     "buildpacks": [{
         "url": "heroku/python"
