@@ -1,51 +1,53 @@
 {
-    "name": "Vivek",
-    "description": "Crowgram is a powerful, advanced, multi-featured Telegram userbot.",
-    "logo": "https://telegra.ph/file/95ea921aa5b01e3b9c91e.png",
-    "keywords": [
-      "userbot",
-      "plugins",
-      "modules",
-      "music",
-      "productivity"
-    ],
-    "repository": "https://github.com/Xkrishmishra/Ukrish",
-    "env": {
-      "api_id": {
-        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "api_hash": {
-        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "string": {
-        "description": "Collect this value by running python3 string_session.py, and never accidentally share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "bot_token": {
-        "description": "Collect the assistant bot's token from @BotFather and don't accidentally share it with anyone.",
-        "value": "",
-        "required": true
-      },
-      "owner": {
-        "description": "Enter the owner's user ID.",
-        "value": "",
-        "required": true
-      },
-      "log_group": {
-        "description": "Enter Crowgram's log group ID.",
-        "value": "",
-        "required": true
+  "name": "Vivek",
+  "description": "Crowgram is a powerful, advanced, multi-featured Telegram userbot.",
+  "logo": "(link unavailable)",
+  "keywords": [
+    "userbot",
+    "plugins",
+    "modules",
+    "music",
+    "productivity"
+  ],
+  "repository": "(https://github.com/xkrishmishra/Ukrish)",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
     },
-    "buildpacks": [{
-        "url": "heroku/python"
-      },
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-      }
-    ]
+    {
+      "url": "(link unavailable)"
+    }
+  ],
+  "env": {
+    "api_id": {
+      "description": "Collect this value from (link unavailable) and do not share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "api_hash": {
+      "description": "Collect this value from (link unavailable) and do not share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "string": {
+      "description": "Collect this value by running python3 (link unavailable), and never accidentally share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "bot_token": {
+      "description": "Collect the assistant bot's token from @BotFather and don't accidentally share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "owner": {
+      "description": "Enter the owner's user ID.",
+      "value": "",
+      "required": true
+    },
+    "log_group": {
+      "description": "Enter Crowgram's log group ID.",
+      "value": "",
+      "required": true
+    }
   }
+}
