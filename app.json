@@ -9,15 +9,6 @@
     "music",
     "productivity"
   ],
-  "repository": "(https://github.com/Xkrishmishra/Ukrish)",
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "(python )"
-    }
-  ],
   "env": {
     "api_id": {
       "description": "Collect this value from (link unavailable) and do not share it with anyone.",
@@ -49,5 +40,17 @@
       "value": "",
       "required": true
     }
-  }
+  },
+   "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
 }
