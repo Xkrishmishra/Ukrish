@@ -1,4 +1,4 @@
-{
+ {
   "name": "Vivek",
   "description": "Crowgram is a powerful, advanced, multi-featured Telegram userbot.",
   "logo": "(link unavailable)",
@@ -15,7 +15,7 @@
       "url": "heroku/python"
     },
     {
-      "url": "(https://github.com/Xkrishmishra/Ukrish.git)"
+      "url": "(https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)"
     }
   ],
   "env": {
