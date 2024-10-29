@@ -19,34 +19,34 @@
     }
   ],
   "env": {
-    "api_id": {
+    "api_id": { 
       "description": "Collect this value from (link unavailable) and do not share it with anyone.",
-      "value": "",
+      "value": "28774732",
       "required": true
     },
     "api_hash": {
       "description": "Collect this value from (link unavailable) and do not share it with anyone.",
-      "value": "",
+      "value": "02c1db016a07e9ece7fb5acb543e634b",
       "required": true
     },
     "string": {
       "description": "Collect this value by running python3 (link unavailable), and never accidentally share it with anyone.",
-      "value": "",
+      "value": "1BVtsOJkBu4c_1udsvU67w8kBj-zv7xoePTWDkDs11bsiKaaQ1hqet8JJQix6OpIVZAp0q_EmRNq8X1DdNvAD6aSeCZLAt8Rq4gUSDReQJOUDtyHkKWI9ERyijkV0D8SE-4utddaOszhrYEwUWYY4cvUH8KaTUJEOBWukJk8FiShCSNr-xL5PV_OXvLOV0j_4yiqSkwbI1Wk9Us6xWNQfZLf1Frd0zHqrZDYSs7mQkUcO33C40Y4wvYXp09hPn6O81XVa-ViCRvshXb-DuEJcZs0On9FrOLc8VHvILUbB_U9GwBVcAuNAsVdvzk4XtsvLRC6nRr0vHNPCZEG4sFZkI-sb3GQbER4=",
       "required": true
     },
     "bot_token": {
       "description": "Collect the assistant bot's token from @BotFather and don't accidentally share it with anyone.",
-      "value": "",
+      "value": "7530613818:AAEcAV7Ocauv6ZITRP5h3Dw0ORku7NzhyNQ",
       "required": true
     },
     "owner": {
       "description": "Enter the owner's user ID.",
-      "value": "",
+      "value": "7403110614",
       "required": true
     },
     "log_group": {
       "description": "Enter Crowgram's log group ID.",
-      "value": "",
+      "value": "-1002203512349",
       "required": true
     }
   }
