@@ -9,7 +9,7 @@
     "music",
     "productivity"
   ],
-  "repository": "(https://github.com/xkrishmishra/Ukrish)",
+  "repository": "(https://github.com/Xkrishmishra/Ukrish.git)",
   "buildpacks": [
     {
       "url": "heroku/python"
